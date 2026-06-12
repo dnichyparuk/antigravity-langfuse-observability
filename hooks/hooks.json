@@ -1,0 +1,22 @@
+{
+  "langfuse-observability": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "command -v uv >/dev/null 2>&1 && uv run ./hooks/langfuse_hook.py || python3 ./hooks/langfuse_hook.py"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "command": "command -v uv >/dev/null 2>&1 && uv run ./hooks/langfuse_hook.py || python3 ./hooks/langfuse_hook.py"
+          }
+        ]
+      }
+    ]
+  }
+}

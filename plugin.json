@@ -1,0 +1,8 @@
+{
+  "name": "langfuse-observability",
+  "description": "Langfuse observability hook for Antigravity CLI",
+  "version": "0.1.0",
+  "author": {
+    "name": "dnichyparuk"
+  }
+}
